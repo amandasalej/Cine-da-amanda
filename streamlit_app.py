@@ -1,13 +1,4 @@
-import streamlit as st
-
-st.set_page_config(page_title="Minha Biblioteca", page_icon="🎀", layout="wide")
-
-st.markdown("""
-    <style>
-    .title { 
-        color: #D81B60; text-align: center; font-size: 2.8rem; 
-        font-family: 'Avenir', sans-serif; margin-bottom: 5px; font-weight: bold;
-    }
+  }
     .subtitle { 
         color: #8E24AA; text-align: center; font-size: 1.2rem; margin-bottom: 30px; 
     }
@@ -36,14 +27,6 @@ with col2:
                 <li>📝 <b>Cadastrar:</b> Adicione os novos livros que leu (com a cor da capa!).</li>
                 <li>📚 <b>Estante:</b> Gerencie os seus livros lidos e veja o seu progresso.</li>
         </div>
-    """, unsafe_allow_html=True)
-
-with col3:
-    st.image("https://i.ibb.co/B2kN4jCV/IMG-1558.jpg", use_container_width=True)
-
-st.markdown("---")
-st.markdown("<p style='text-align: center; color: #888; font-size: 0.9rem;'>Feito com 💖 e Streamlit</p>", unsafe_allow_html=True)
-
 
 
 
