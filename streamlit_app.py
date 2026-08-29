@@ -1,19 +1,24 @@
 import streamlit as st
 
-st.set_page_config(page_title="Cine da Poltrona", page_icon="🎬")
+st.set_page_config(page_title="Biblioteca da Amanda", page_icon="📚")
 
-st.title("🎬 Cine da Poltrona")
+st.markdown("# 🎀 **Biblioteca da Amanda** ✨")
+st.markdown("---") 
 
+
+st.markdown("Bem-vinda ao meu cantinho de leitura! Aqui eu guardo minhas histórias favoritas e acompanho minhas leituras. 💖")
+
+st.markdown("### 🎯 **Minha Meta Literária:**")
 st.markdown("""
-Bem-vinda ao meu **catálogo pessoal de filmes e séries**! 🍿
+- Ler **40 livros** este ano! 📚
+- Deixar tudo catalogado e organizado. 💅
+""")
 
-Aqui eu registro tudo o que já assisti e o que ainda quero ver.
-Com este site é possível:
+st.image(
+    "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80", 
+    caption="Meu mundo em páginas! 🌸✨"
+)
 
-- 🎥 **Cadastrar** um filme ou série, com nota e resenha
-- 🔎 **Consultar** e buscar no acervo
-- ✏️ **Editar** ou remover títulos
-- 📊 Ver **estatísticas** do que já assisti
 
 ---
 
