@@ -24,7 +24,7 @@ st.markdown("<p class='subtitle'>Buy me books & tell me I'm pretty ✨</p>", uns
 col1, col2, col3 = st.columns([1, 2, 1])
 
 with col1:
-    st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG9jMzNndW1zYWNpZDF4YncydzNyZDcwZTNmOGFmNGN3YzhzZHl1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3o7aD2d7hy9ktXNDP2/giphy.gif", use_container_width=True)
+    st.image("https://i.ibb.co/DHmR2XSg/IMG-1559.jpg", use_container_width=True)
 
 with col2:
     st.markdown("""
@@ -39,7 +39,7 @@ with col2:
     """, unsafe_allow_html=True)
 
 with col3:
-    st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3J2eTdqbHVxZ3M1cGN6eTN2dGZoeTB4Nmh2czF6ZHQ2a2s4dnhpeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L252D32F34hKk5V3E5/giphy.gif", use_container_width=True)
+    st.image("https://i.ibb.co/B2kN4jCV/IMG-1558.jpg", use_container_width=True)
 
 st.markdown("---")
 st.markdown("<p style='text-align: center; color: #888; font-size: 0.9rem;'>Feito com 💖 e Streamlit</p>", unsafe_allow_html=True)
