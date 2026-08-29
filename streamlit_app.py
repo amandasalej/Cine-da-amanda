@@ -20,8 +20,3 @@ st.image(
 )
 
 
----
-
-*Projeto desenvolvido para o curso do GRACE ICMC USP.*
-""")
-
