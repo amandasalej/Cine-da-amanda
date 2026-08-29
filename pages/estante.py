@@ -46,7 +46,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<h1 class='main-title'>🌸 A Minha Estante 📖</h1>", unsafe_allow_html=True)
-st.markdown("<p class='sub-title'>Acompanhando minhas leituras com carinho e estilo ✨</p>", unsafe_allow_html=True)
+st.markdown("<p class='sub-title'>Acompanhando minhas leituras ✨</p>", unsafe_allow_html=True)
 
 livros_ref = db.collection("livros").stream()
 lista_livros = [doc.to_dict() for doc in livros_ref]
