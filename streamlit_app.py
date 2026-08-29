@@ -1,6 +1,11 @@
 import streamlit as st
 
-st.set_page_config(page_title="Biblioteca da Amanda", page_icon="📚")
+st.set_page_config(
+    page_title="Biblioteca da Amanda", 
+    page_icon="🎀", 
+    initial_sidebar_state="expanded"
+)
+
 
 st.markdown("# 🎀 **Biblioteca da Amanda** ✨")
 st.markdown("---") 
