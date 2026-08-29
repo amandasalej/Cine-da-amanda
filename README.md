@@ -1,25 +1,17 @@
-# 🎈 Blank app template
+# 📚 Biblioteca da Amanda - Plataforma de Leitura
 
-A simple Streamlit app template for you to modify!
+Aplicação web interativa desenvolvida em **Python** e **Streamlit** com persistência no **Firebase Firestore**, criada para organizar, catalogar e acompanhar leituras de forma dinâmica.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 🚀 Funcionalidades
 
-### How to run it on your own machine
+* **Vitrine de Livros:** Visualização em grid com filtros dinâmicos por status de leitura e categorias.
+* **Cadastro de Obras:** Formulário completo para inclusão de novos livros, com suporte a upload de capas e validação.
+* **Gerenciamento e Edição:** Painel administrativo para atualizar progresso, alterar status e gerenciar registros.
+* **Integração com Banco de Dados:** Persistência em tempo real e em nuvem via Google Cloud Firestore.
 
-Prerequisite: install `uv` if you don't already have it.
+## 🛠️ Tecnologias Utilizadas
 
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-1. Sync the dependencies
-
-   ```
-   $ uv sync
-   ```
-
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+* Python 3
+* Streamlit
+* Google Cloud Firestore
+* Streamlit Lottie / Componentes visuais
