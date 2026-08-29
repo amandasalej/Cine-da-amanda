@@ -33,12 +33,8 @@ with col2:
             <p style='font-size: 1.1rem;'>Aqui é o lugar perfeito para guardar as suas aventuras e acompanhar a sua meta de 40 livros.</p>
             <hr style='border: 1px solid #FFE4EC;'>
             <ul style='font-size: 1.1rem; color: #4A3B40;'>
-                <li>📝 <b>Cadastrar:</b> Adicione os novos livros que devorou (com a cor da capa!).</li>
-                <li>📚 <b>A Minha Estante:</b> Gerencie os seus livros lidos e veja o seu progresso.</li>
-            </ul>
-            <p style='text-align: center; font-style: italic; color: #D81B60; margin-top: 20px;'>
-                "Books are the mirror of the soul. - Virginia Woolf"
-            </p>
+                <li>📝 <b>Cadastrar:</b> Adicione os novos livros que leu (com a cor da capa!).</li>
+                <li>📚 <b>Estante:</b> Gerencie os seus livros lidos e veja o seu progresso.</li>
         </div>
     """, unsafe_allow_html=True)
 
